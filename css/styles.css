@@ -1,0 +1,269 @@
+body{
+    background-color: #f6f6f6;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wrapper{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin:0 auto ;
+}
+.my-content{
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.sidebar{
+    background: #e0edfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px; ;
+}
+.sidebar-content{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.contacts-title{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height:normal ;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.contacts-type{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height:24px ;
+    margin-right: 8px;
+}
+.contentact-link{
+color-scheme: #2979ff;
+font-size:14px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: underline;
+}
+.contacts-item{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.contacts-container{
+    margin-bottom: 40px;
+}
+.skills-container{
+    margin-bottom: 40px;
+}
+.skiills-title{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height:normal ;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.skills-list{
+    padding-left: 16px;
+}
+.skills-list-item{
+ color-scheme: #2979ff;
+font-size:14px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.my-profession{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.my-name{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.my-descr{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.my-info{
+    margin-bottom: 40px;
+}
+.my-projects-title{
+color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.my-project-item{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.my-projects-list{
+    padding-left: 16px;
+}
+.my-projects-item-link{
+    color: #005fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.my-projects-item-tech{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+.my-project-container{
+    margin-bottom: 40px;
+}
+.work-experienece-title{
+    color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.work-experienece-company{
+color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 0;
+margin-bottom: 12px;
+}
+.company-name{
+color: #6D9BF5;
+}
+.work-experienece-period{
+    color: #a8a8a8;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+margin-bottom: 8px;
+}
+.work-experienece-period-separator{
+    color: #000;
+}
+.work-experienece-duties-list{
+padding-left: 16px;
+}
+.work-experienece-duties-item{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.work-experienece-container{
+    margin-bottom: 12px;
+}
+.education-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.education-university{
+    color: #6D9BF5;
+    font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.education-faculty{
+    color: #000;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.education-period{
+ color: #a8a8a8;
+font-size: 12px;
+font-weight: 400;
+line-height: 10px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.education-period-separ{
+    color: #000;
+}
+@media screen and (max-width:950px){
+    body{
+        padding: 20px;
+    }
+    .my-content{
+        padding: 40px;
+    }
+    
+}
+@media  screen and (max-width:800px){
+    .sidebar{
+        width: 250px;
+    }
+    .my-photo{
+        width: 250px;
+    }
+    .sidebar-content{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        padding: 0;
+    }
+    .sidebar{
+        width: 200px;
+    }
+    .my-photo{
+        width: 200px;
+    }
+    .my-content{
+        padding: 20px;
+    }
+    .my-name{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:510px){
+    .wrapper{
+        flex-direction: column;
+
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .my-photo{
+        width: 100%;
+    }
+}
